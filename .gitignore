@@ -1,0 +1,12 @@
+# Данные Kaggle и база: большие файлы, не коммитим
+data/data.csv
+data/pbi_transactions.csv
+data/check_revenue.csv
+*.db
+
+# Jupyter и Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Power BI
+*.pbix.bak
