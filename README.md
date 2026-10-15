@@ -150,7 +150,7 @@ Netherlands на втором месте при всего 96 счетах: эт
 ## Структура проекта
 
 ```
-ecommerce-project/
+ecommerce-analysis/
 ├── data/
 │   └── rfm_segments.csv  # результат RFM-сегментации (исходный CSV с Kaggle в репозиторий не входит)
 ├── sql/
