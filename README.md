@@ -1,5 +1,22 @@
 # E-Commerce Analysis: от сырых данных до инсайтов
 
+> Open to Junior Data Analyst / BI Analyst roles (remote or Kazakhstan).
+
+## Summary (English)
+
+An end-to-end portfolio project analyzing ~536K transactions from a UK online retailer (Kaggle E-Commerce Data, Dec 2010 - Dec 2011). Data was cleaned in Python (pandas), explored in SQL (SQLite: CTEs, window functions, conditional aggregation), segmented with RFM, cross-checked in Google Sheets, and visualized in a 3-page Power BI dashboard (Power Query, DAX).
+
+**Key findings**
+- The UK accounts for 84% of revenue (£8.09M of £9.58M), and the share is stable month to month.
+- Revenue peaks in November (~£1.42M); December 2011 is incomplete and excluded from trends.
+- 20% of customers (6+ orders) generate 68% of revenue. RFM "Champions" are 19% of customers but 64% of revenue.
+- Returns are 14.9% of invoices but only 6.9% of sales value.
+
+**Method notes:** results were validated across SQL, Google Sheets and Power BI (totals matched exactly). Errors found along the way (returns counted as orders, gross instead of net revenue in RFM) are documented in the "Исправленные ошибки" section.
+
+*Full write-up in Russian below.*
+
+
 Учебный портфолио-проект дата-аналитика. Полный цикл: очистка данных в Python, исследование в SQL, RFM-сегментация, независимая проверка в Google Sheets и интерактивный дашборд в Power BI.
 
 **Данные:** [E-Commerce Data (Kaggle)](https://www.kaggle.com/datasets/carrie1/ecommerce-data), транзакции британского интернет-магазина с 2010-12-01 по 2011-12-09. Последний месяц (декабрь 2011) неполный.
